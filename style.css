@@ -74,6 +74,7 @@ main {
     font-family: 'Fraunces', sans-serif;
     font-size: 2rem;
     color: var(--very-dark-blue);
+    line-height: 0.9;
 }
 
 .product-detalis {

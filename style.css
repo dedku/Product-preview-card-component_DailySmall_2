@@ -108,6 +108,8 @@ main {
 
 .product-cta {
     background-color: var(--dark-cyan);
+    font-weight: bold;
+    color: var(--white);
     height: 48px;
     border-radius: 10px;
     border: 0px;
@@ -117,11 +119,6 @@ main {
     align-items: center;
     column-gap: 1rem;
     cursor: pointer;
-}
-
-.cta-text {
-    font-weight: bold;
-    color: var(--white);
 }
 
 .attribution {

@@ -33,7 +33,7 @@ main {
     justify-content: center;
 }
 
-.content {
+section {
     background-color: var(--white);
     display: flex;
     flex-direction: row;
@@ -128,4 +128,24 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 650px) {
+    section {
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .product-image {
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+
+    .product-info {
+        row-gap: 20px;
+        padding: 30px;
+    }
 }

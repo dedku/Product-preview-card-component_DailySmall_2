@@ -46,6 +46,11 @@ section {
     transform: translateY(-50%);
 }
 
+del {
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+}
+
 .product-image {
     max-width: 100%;
     min-width: calc(var(--content-width)/2);
@@ -101,9 +106,8 @@ section {
 }
 
 .product-price-old {
-    font-weight: 500;
-    text-decoration: line-through;
-    color: var(--dark-grayish-blue);
+    visibility: hidden;
+    position: absolute;
 }
 
 .product-cta {
